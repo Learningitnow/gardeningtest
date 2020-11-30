@@ -1,0 +1,42 @@
+.navBar {
+    background-color: rgb(79, 112, 76);
+    height: 150px;
+    position: absolute;
+}
+
+.brandNav {
+    color: white;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.brandNav h1 {
+    font-family: atocha, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.brandNav h5 {
+    font-family: aileron, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.navBtn {
+    margin: 3px;
+    font-family: aileron, sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    text-align: center;
+}
+
+.navLinks {
+    display: inline-block;
+
+}

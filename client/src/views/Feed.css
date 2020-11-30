@@ -1,0 +1,12 @@
+.wrapper {
+    margin-top: 90px;
+}
+
+.pageTitle h1 {
+    font-family: aileron, sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

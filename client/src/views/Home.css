@@ -1,0 +1,111 @@
+.container {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+    position: relative;
+    color: white;
+    margin-bottom: 150px;
+ }
+
+.mainImg {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    padding-right:0;
+    padding-left:0;
+}
+
+.centered-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-img-overlay p {
+    font-family: aileron, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    font-size: 200%;
+    filter: brightness(100%);
+}
+
+.about {
+    position: absolute;
+    top:700px;
+    width:100%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.about h1 {
+    font-family: atocha, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.about p {
+    font-family: aileron, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.aboutApp p {
+    padding-bottom: 10px;
+}
+
+.aboutUs p {
+    padding-bottom: 100px;
+}
+
+.btn {
+    font-family: aileron, sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    text-align: center;
+}
+hr {
+    border: 0;
+    clear: both;
+    display:block;
+    width: 40%;               
+    background-color: black;
+    height: 1px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1025px){
+    .homeImage {
+        width: 1025px;
+        height: 675px;
+    }
+    .imageText {
+       color: black;
+       text-decoration-color: black;
+    }
+    .about {
+        margin-top: 100px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px){
+    .homeImage {
+        width: 768px;
+        height: 675px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .homeImage {
+        width: 414px;
+        height: 650px;
+    }
+}
